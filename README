@@ -1,0 +1,19 @@
++-----------------------+
+| Nethack Output Parser |
++-----------------------+
+
++----------------+
+| 12/2012 -> now |
++----------------+
+
++--------------------------------------------------------------------+
+| output parser for nethack game                                     |
+| needs interceptor.so (http://github.com/Origraena/interceptor.git) |
++--------------------------------------------------------------------+
+
++----HowTo-----------------------------------------------------------+
+| to make the interpreter unbuffered use "stty -icanon"              |
+| or put your terminal in a "raw" mode                               |
+| may (should?) be replaced by a call to ncurses library...          |
++--------------------------------------------------------------------+
+
