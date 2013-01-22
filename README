@@ -9,6 +9,7 @@
 +--------------------------------------------------------------------+
 | output parser for nethack game                                     |
 | needs interceptor.so (http://github.com/Origraena/interceptor.git) |
+| (place it in lib/bin/libinterceptor.so                             |
 +--------------------------------------------------------------------+
 
 +----HowTo-----------------------------------------------------------+
