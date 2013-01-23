@@ -10,4 +10,4 @@ if [ -f ./ori.log ]; then
 	rm -f ./ori.log
 fi
 stty -icanon            # easiest way......
-./target/release/nhp
+./target/release/nop
