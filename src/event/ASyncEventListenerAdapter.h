@@ -10,7 +10,6 @@ namespace nop {
 class ASyncEventListenerAdapter : public ASyncEventListener {
 
 	public:
-//		ASyncEventListenerAdapter();
 		ASyncEventListenerAdapter(EventListener& adapted);
 
 		/// accessors

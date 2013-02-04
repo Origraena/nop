@@ -182,6 +182,7 @@ int main(int argc, char** argv) {
 		FD_SET(FD_STDIN,&fds);
 		if (select(fd_master+1,&fds,0,0,0) < 0) {
 			perror("select");
+			running = 0;
 			break;
 		}
 
